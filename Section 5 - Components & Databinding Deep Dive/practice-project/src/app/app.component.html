@@ -1,0 +1,25 @@
+<div class="container">
+  <h4>Jueguito</h4>
+  <hr />
+  <app-game-control
+      (incremented)="onIncremented($event)"
+      (stopped)="onStopped($event)"></app-game-control>
+  <br />
+  <div class="row">
+    <div class="col-md-6">
+      <h4>Even Numbers</h4>
+      <app-even *ngFor="let evenNumber of getEvenNumbers()">
+        <p class="even">New Even Number: {{evenNumber}}</p>
+      </app-even>
+    </div>
+
+    <div class="col-md-6">
+      <h4>Odd Numbers</h4>
+      <app-odd *ngFor="let oddNumber of getOddNumbers()" [oddNumber]="oddNumber">
+        <!--<p class="odd">New Odd Numer: oddNumber</p>-->
+
+      </app-odd>
+    </div>
+  </div>
+  
+</div>

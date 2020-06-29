@@ -11,3 +11,7 @@ Practices comprehend concepts like:
 - Routing
 - Observables
 - Angular Forms
+
+#Note
+For reasons of size, every section has the "node_modules" folders missing.
+If you want to run the solution, It will be necessary to add this folder by running "npm install" from your console.
