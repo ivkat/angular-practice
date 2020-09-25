@@ -1,0 +1,5 @@
+
+*.cache
+course-project/.vs/course-project/config/applicationhost.config
+course-project/.vs/course-project/v16/.suo
+course-project/.vs/slnx.sqlite
